@@ -13,7 +13,7 @@ OpenAI Gym Style Tic-Tac-Toe Environment.
 
 ## Requirement
 
-Python >= 3.5
+Python >= 3.8
 
 ## Install
 

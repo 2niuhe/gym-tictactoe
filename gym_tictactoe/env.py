@@ -1,7 +1,7 @@
 import logging
 
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 
 CODE_MARK_MAP = {0: ' ', 1: 'O', 2: 'X'}
 NUM_LOC = 9
@@ -93,7 +93,6 @@ class TicTacToeEnv(gym.Env):
         self.alpha = alpha
         self.set_start_mark('O')
         self.show_number = show_number
-        self.seed()
         self.reset()
 
     def set_start_mark(self, mark):
